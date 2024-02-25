@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Flowing Text Around Floating Elements</title>
+        <style type = "text/css">
+            header { background-color: gray;
+                     text-align: center;
+                     font-family: arial, helvetica, sans-serif;
+                     padding: .2em }
+            P       { text-align: justify;
+                      font-family: verdana, geneva, sans-serif;
+                      margin: .5em;}
+            h1      {margin-top: 0px;}
+            .vertical { background-color: lightgrey;
+                        font-size: 1.5em;
+                        font-family: arial, helvetica, sans-serif;
+                        padding: .2em;
+                        margin-left: .5em;
+                        margin-top: .5em;
+                        margin-bottom: .5em;
+                        float: left;
+                        text-align: left;
+                        width: 200;
+                        height: 80;}
+            .floated { background-color: LightGrey;
+                       font-size: 1.5em;
+                       font-family: arial, helvetica, sans-serif;
+                       padding: .2em;
+                       margin-right: .5em;
+                       margin-left: .5em;
+                       margin-bottom: .5em;
+                       float: right;
+                       text-align: right;
+                       width: 20%;}
+            p {border: 1px solid rgb(38, 0, 255);}                    
+        </style>
+    </head>
+
+    <body>
+        <section>
+            <p class = "vertical">Quantum<br>Bit<br>Commitment</p>
+            <h1 class = "floated">Abstract</h1>
+            <p>Quantum bit commitment is deemed impossible due to the use of entanglement by a dishonest participant. We show in this paper how the use of entanglement can be detected by the other party, therefore making secure quantum bit commitment possible. To this end, we rely on the fundamental property of an EPR pair to create correlations when measured, therefore introducing order into what should otherwise be a randomly generated binary string. This result opens the door for a whole set of cryptographic 
+                applications using bit commitment as a building block: remote coin tossing, zero-knowledge proofs and secure two-party computation.</p>
+            <h1 class = "floated">Keywords</h1>
+            <p><strong>Quantum computation; Cryptography; Quantum secuirty; Qubits</strong></p>
+        </section>
+    </body>
+</html>
